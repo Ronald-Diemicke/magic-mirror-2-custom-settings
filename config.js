@@ -10,7 +10,46 @@ var config = {
 	"units": "imperial",
 	"modules": [
 		{
+			"module": "MMM-PlexSlideshow",
+			"header": "",
+			"position": "fullscreen_below",
+			"config": {
+				"plex": {
+					"hostname": "192.168.2.200",
+					"port": 32400,
+					"authToken": "nGxjfcjwHgWWbymnaiVf"
+				},
+				"transitionImages": true
+			}
+		},
+		{
 			"module": "MMM-Admin-Interface"
+		},
+		{
+			"module": "MMM-Carousel",
+			"position": "bottom_bar",
+			"config": {
+				"transitionInterval": 0,
+				"ignoreModules": [
+					"clock",
+					"MMM-PlexSlideshow"
+				],
+				"mode": "slides",
+				"showPageIndicators": true,
+				"showPageControls": true,
+				"slides": {
+					"slide-1": [
+						"calendar"
+					],
+					"slide-2": [
+						"weather"
+					],
+					"slide-3": [
+						"newsfeed"
+					]
+				}
+			},
+			"header": ""
 		},
 		{
 			"module": "MMM-BurnIn",

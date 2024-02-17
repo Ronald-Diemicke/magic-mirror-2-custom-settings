@@ -18,3 +18,21 @@
   
   --gap-modules: 20px;
 }
+
+body {
+    height: calc(100% - var(--gap-body-top) - var(--gap-body-bottom));
+    margin-bottom: revert;
+}
+
+.region.bottom {
+    bottom: 30px;
+}
+
+.mmm-carousel-container {
+    bottom: unset;
+    height: 30px;
+
+    .slider-pagination {
+        bottom: unset;
+    }
+}

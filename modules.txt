@@ -5,7 +5,7 @@
 
 Y https://github.com/ItayXD/MMM-Admin-Interface.git
 Y https://github.com/werthdavid/MMM-BurnIn.git
-Y https://github.com/barnabycolby/MMM-Carousel
+Y https://github.com/shbatm/MMM-Carousel
 Y https://github.com/Toreke/MMM-Dynamic-Modules.git
 #N https://github.com/Kreshnik/MMM-JokeAPI.git
 Y https://github.com/slametps/MMM-NetworkConnection.git
@@ -25,5 +25,6 @@ Y https://github.com/ronny3050/phone-notification-mirror.git
 #Y https://github.com/ianperrin/MMM-Strava.git
 #N https://github.com/PtrBld/MMM-Scrobbler.git
 #N https://github.com/MitchSS/MMM-Hue.git
+Y https://github.com/PJTewkesbury/MMM-PlexSlideshow.git
 
 # Don't delete this line!
